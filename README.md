@@ -1,21 +1,26 @@
 Vidya AI Study Companion - Learning Portal
 A comprehensive role-based learning portal built for Teachers, Students, and Admins with secure login, file uploads, AI-based summary generation, translation to native languages, and management features.
 
+
 Features
 🔐 Authentication & Authorization
 JWT-based authentication
 Role-based access control (STUDENT, TEACHER, ADMIN)
 Secure token storage in localStorage
 Automatic redirection based on user role
+
 👨‍🎓 Student Dashboard
 View All Summaries: Display summaries with language toggle (English, Hindi, Marathi, Gujarati)
 Generate Summary: Select material and language to generate AI-powered summaries
+
 Delete Summary: Remove unwanted summaries
 Language Support: Multi-language summary generation and viewing
+
 👨‍🏫 Teacher Dashboard
 Upload Study Material: Upload PDF files with title and tag selection
 View Uploaded Materials: Display all uploaded materials with metadata
 Material Management: Track uploaded materials with timestamps
+
 🛠️ Admin Dashboard
 Tag Management: Add and delete tags for material categorization
 User Management: View and manage users (optional feature)
@@ -49,6 +54,7 @@ npm or yarn
 Installation
 Clone the repository
 
+
 git clone <repository-url>
 cd learning-portal
 Install dependencies
@@ -69,6 +75,7 @@ The app will automatically redirect to the login page
 Demo Credentials
 For testing purposes, you can use these demo credentials:
 
+
 Student: student1 / password
 Teacher: teacher1 / password
 Admin: admin1 / password
@@ -86,24 +93,30 @@ src/
 │   └── apiService.js         # API service
 ├── App.js                    # Main app component
 └── App.css                   # Custom styles
+
 Key Features
+
 🔒 Security
 JWT token authentication
 Role-based route protection
 Automatic token refresh handling
 Secure logout functionality
+
 📱 Responsive Design
 Mobile-friendly interface
 Bootstrap-based responsive layout
 Touch-friendly navigation
+
 🌐 Multi-language Support
 Summary generation in multiple languages
 Language toggle for viewing summaries
 Support for English, Hindi, Marathi, and Gujarati
+
 📁 File Management
 PDF file upload for study materials
 File validation and error handling
 Secure file storage integration
+
 🎨 Modern UI/UX
 Clean and intuitive interface
 Loading states and error handling
